@@ -1,0 +1,24 @@
+---
+layout: archive
+title: "Publications"
+lang: en
+permalink: /fr/publications/
+author_profile: true
+---
+
+{% if site.author.googlescholar %}
+<div class="wordwrap">Vous pouvez trouver mes articles sur <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+</div>
+{% endif %}
+
+{% assign pubs = site.publications | sort: "date" | reverse %}
+
+{% for category in site.publication_category %}
+{% assign cat_pubs = pubs | where: "category", category[0] %}
+{% if cat_pubs.size > 0 %}
+<h2>{% if page.lang == "fr" %}{{ category[1].title_fr }}{% else %}{{ category[1].title }}{% endif %}</h2>
+{% for pub in cat_pubs %}
+{% include publication-item.html pub=pub %}
+{% endfor %}
+{% endif %}
+{% endfor %}

@@ -1,0 +1,11 @@
+<p class="publication">
+    {% if include.pub.paperurl %}
+    <a href="{{ include.pub.paperurl }}"><strong>{{ include.pub.title }}</strong></a>
+    {% else %}
+    <strong>{{ include.pub.title }}</strong>
+    {% endif %}
+    <br>
+    {{ include.pub.authors }}
+    <br>
+    <em>{{ include.pub.venue }}</em>, {{ include.pub.date | date: "%Y" }}
+</p>
