@@ -1,6 +1,8 @@
 ---
 permalink: /
 title: ""
+lang: en
+ref: about
 author_profile: true
 redirect_from: 
   - /about/
@@ -19,7 +21,7 @@ I received my PhD in 2021 from Université de Lorraine, under the supervision of
 We are looking for students to join several research projects. Topics include:
 
 - Simulating radio communication data to improve the robustness of speech processing systems
-- Detecting audio deepfakes using a database of signatures
+- [Detecting audio deepfakes using a database of signatures](https://www.linkedin.com/jobs/view/4479207271/?alternateChannel=search&eBP=NON_CHARGEABLE_CHANNEL&refId=EG7ONJgKtwvjEwTCS35RcQ%3D%3DtrackingId=wlheBLy7yqvFhAyvhOCTnw%3D%3D)
 - Investigating the robustness, detection, and identification of audio steganography and watermarking
 - Streaming masking of personal information in speech
 

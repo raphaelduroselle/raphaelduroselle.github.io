@@ -21,8 +21,10 @@ J'ai soutenu ma thèse en 2021 à l'Université de Lorraine, sous la direction d
 Nous recherchons des étudiants pour des stages de master et des thèses, notamment sur les sujets suivants :
 
 - Simulation de données radio pour les systèmes de traitement de la parole
-- Détection de deepfakes audio à partir d'une base de signatures
+- [Détection de deepfakes audio à partir d'une base de signatures](https://www.linkedin.com/jobs/view/4479207271/?alternateChannel=search&eBP=NON_CHARGEABLE_CHANNEL&refId=EG7ONJgKtwvjEwTCS35RcQ%3D%3DtrackingId=wlheBLy7yqvFhAyvhOCTnw%3D%3D)
 - Sténographie audio et watermarking
 - Masquage d'informations personnelles dans la parole en streaming
 
 N'hésitez pas à me contacter si vous êtes intéressé.
+
+
